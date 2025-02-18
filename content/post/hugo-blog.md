@@ -208,9 +208,6 @@ shortcodes算是hugo一个比较高级的功能了，我应该不怎么用到。
 
 ```
 
-借用一下同学的视频。
-{{< youtube r_Ws-jW1Rz4 >}}
-
 简单的想，shortcodes给我的感觉有点像自定义的函数，然后可以在markdown里直接调用。例如你可以写一个`myshortcode.html`在shortcodes文件夹下：
 
 ```html
@@ -218,7 +215,7 @@ shortcodes算是hugo一个比较高级的功能了，我应该不怎么用到。
 ```
 
 然后在md文件中调用它：
-```{markdown}
+```markdown
 {{</* myshortcode brown */>}}
 ```
 也可以不用参数传递的形式传入参数，可以用shortcodes的标签包括内容。
